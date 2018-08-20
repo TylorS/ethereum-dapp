@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 
 const srcPath = path.join(__dirname, 'src')
-const distPath = path.join(__dirname, 'dist')
+const distPath = path.join(__dirname, 'docs')
 const entry = path.join(srcPath, 'bootstrap.tsx')
 
 const HtmlOptions = {
