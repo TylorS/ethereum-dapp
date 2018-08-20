@@ -49,3 +49,4 @@ src/test.ts
 .DS_STORE
 .vscode
 .next
+.docs/src

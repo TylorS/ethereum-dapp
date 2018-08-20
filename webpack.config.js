@@ -52,9 +52,9 @@ const config = {
     extensions: ['.ts', '.tsx', '.js'],
   },
   output: {
-    filename: 'bundle.[hash].js',
+    filename: 'bundle.js',
     path: distPath,
-    publicPath: '/',
+    publicPath: '/ethereum-dapp',
   },
 }
 
